@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="underscore.js"></script>
+    <script src="jquery.js"></script>
+    <script src="ticTacToe.js"></script>
+    <script src="ui.js"></script>
+    <link rel="stylesheet" href="ttt.css" type="text/css">
+    <title>Triple T</title>
+    <script>
+    $(document).ready(function() {
+      var gameUi = new TTT.GameUi($('#board'));
+      //gameUi.setUpBoard();
+    })
+    </script>
+  </head>
+  <body>
+    <h1>XXXTreme TicTacToe!</h1>
+    <div id="board"></div>
+  </body>
+</html>
